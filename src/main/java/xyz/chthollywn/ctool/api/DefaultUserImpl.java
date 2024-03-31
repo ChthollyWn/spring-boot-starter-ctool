@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DefaultUserImpl implements CToolUserInterface {
-
     @Override
     public boolean isLogin() {
         return false;

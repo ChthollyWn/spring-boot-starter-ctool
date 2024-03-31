@@ -5,7 +5,6 @@ import lombok.Data;
 
 import javax.servlet.http.HttpServletRequest;
 
-
 @Data
 public class IpUtil {
 

@@ -10,10 +10,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-/**
- * @author chenzhipeng
- * @description
- */
 @Slf4j
 public class JsonUtil {
     // 单例 objectMapper
