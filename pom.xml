@@ -6,7 +6,7 @@
 
     <groupId>xyz.chthollywn.ctool</groupId>
     <artifactId>spring-boot-starter-ctool</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.0</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -71,6 +71,13 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>spring-boot-starter-ctool</name>
+            <url>https://maven.pkg.github.com/ChthollyWn/spring-boot-starter-ctool</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
